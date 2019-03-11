@@ -1,0 +1,29 @@
+.header {
+  background-color: #BE90D4;
+  background: linear-gradient(#BE90D4, #5D3F6A);
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 30px;
+  margin: auto;
+  display: flex;
+}
+
+.title {
+  margin: auto;
+  vertical-align: middle;
+  font-family: Impact, sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.rick {
+  height: 100px;
+  float: right;
+  border-radius: 15px;
+}

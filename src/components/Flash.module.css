@@ -1,0 +1,11 @@
+.flash {
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  display: block;
+  background-color: #BE90D4;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  z-index: 99;
+}

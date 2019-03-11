@@ -1,0 +1,28 @@
+.container {
+  max-width: 1280px;
+  padding: 0 30px;
+  display: flex;
+  margin: auto;
+}
+
+.body.container > *:not(:first-child) {
+  padding-left: 15px; 
+}
+
+.body.container > *:not(:last-child) {
+  padding-right: 15px; 
+}
+
+@media only screen and (max-width: 991px) {
+  .body.container {
+    flex-wrap: wrap;
+  }
+}
+
+.box {
+  padding: 25px;
+  margin: 25px 0;
+  background-color: white;
+  background: linear-gradient(#FFFFFF, #DDDDDD);
+  border-radius: 25px;
+}

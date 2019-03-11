@@ -1,0 +1,42 @@
+@media only screen and (max-width: 991px) {
+  .formWrapper {
+    width: 100%;
+    order: -1;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .formWrapper {
+    min-width:350px;
+  }
+
+  .form {
+    position: sticky;
+    top: 125px;
+  }
+}
+
+.form :global label, .form :global input:not([type="submit"]) {
+  display: block;
+  width: 100%;
+}
+
+.form :global textarea {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.form :global input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #BE90D4;
+}
+
+.submitWrapper {
+  text-align: right;
+}
